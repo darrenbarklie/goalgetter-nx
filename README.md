@@ -17,8 +17,10 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 ```bash
 npm install
 
-nx serve goalgetter-web
+nx run-many --parallel --target=serve --projects=goalgetter-api,goalgetter-web
 
 nx serve goalgetter-api
+
+nx serve goalgetter-web
 
 ```

@@ -11,3 +11,11 @@ Run `nx graph` to see a diagram of the dependencies of the projects.
 Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app).
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## Run
+
+```bash
+npm install
+
+nx serve goalgetter-web
+```

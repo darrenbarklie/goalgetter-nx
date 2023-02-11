@@ -1,11 +1,9 @@
-import NxWelcome from './nx-welcome';
-
 export function App() {
   return (
-    <>
-      <NxWelcome title="goalgetter-web" />
+    <div>
+      {import.meta.env.VITE_APP_TITLE}
       <div />
-    </>
+    </div>
   );
 }
 

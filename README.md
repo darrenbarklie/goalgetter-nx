@@ -19,6 +19,6 @@ npm install
 
 nx serve goalgetter-web
 
-nx server goalgetter-api
+nx serve goalgetter-api
 
 ```

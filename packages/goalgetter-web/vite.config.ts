@@ -7,12 +7,12 @@ export default defineConfig({
   cacheDir: '../../node_modules/.vite/goalgetter-web',
 
   server: {
-    port: 4200,
+    port: 8080,
     host: 'localhost',
   },
 
   preview: {
-    port: 4300,
+    port: 8081,
     host: 'localhost',
   },
 

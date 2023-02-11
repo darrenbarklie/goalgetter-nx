@@ -18,4 +18,7 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 npm install
 
 nx serve goalgetter-web
+
+nx server goalgetter-api
+
 ```

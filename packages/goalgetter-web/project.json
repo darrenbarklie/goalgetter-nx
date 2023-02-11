@@ -24,7 +24,8 @@
       "executor": "@nrwl/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "goalgetter-web:build"
+        "buildTarget": "goalgetter-web:build",
+        "proxyConfig": "packages/goalgetter-web/proxy.conf.json"
       },
       "configurations": {
         "development": {

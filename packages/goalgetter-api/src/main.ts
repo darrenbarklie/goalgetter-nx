@@ -4,10 +4,12 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app/app.module';
 
 async function bootstrap() {
+  console.log('::: GoalGetter API: v0.0.1 :::');
+
   const app = await NestFactory.create(AppModule);
 
   app.enableCors({
-    origin: process.env.CORS_ORIGIN.split(', '),
+    origin: process.env.CORS_ORIGIN?.split(', '),
     credentials: true,
   });
 

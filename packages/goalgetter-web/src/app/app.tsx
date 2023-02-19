@@ -6,7 +6,8 @@ export function App() {
   });
 
   useEffect(() => {
-    fetch('http://localhost:3000/')
+    // TODO(DBB) : GOALGETTER_API_URL env var
+    fetch('http://localhost:6042/')
       .then((response) => response.json())
       .then((data) => {
         setGreeting(data);
